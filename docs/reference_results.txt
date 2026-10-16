@@ -1,0 +1,21 @@
+real v=      0 k=     20 r=0.5 relative_error=4.18e-15
+real v=    2.3 k=     20 r=0.5 relative_error=1.09e-14
+real v=     21 k=     20 r=0.5 relative_error=1e-14
+real v=     50 k=     20 r=0.5 relative_error=2.2e-12
+real v=      5 k=   1000 r=0.5 relative_error=8.53e-17
+real v=    600 k=   1000 r=0.5 relative_error=5.02e-13
+real v=   2100 k=   1000 r=0.9 relative_error=1.04e-13
+imag v=    0.1 k=     20 r=0.5 relative_error=4.84e-10
+imag v=      2 k=     20 r=0.5 relative_error=4.86e-14
+imag v=     10 k=     20 r=0.5 relative_error=9.7e-17
+imag v=     50 k=     20 r=0.5 relative_error=9.39e-17
+imag v=      8 k=     30 r=0.5 relative_error=6.14e-12
+imag v=     35 k=     50 r=0.5 relative_error=1.17e-12
+imag v=     80 k=     80 r=0.5 relative_error=4.17e-14
+imag v=    150 k=    150 r=0.5 relative_error=5.94e-13
+imag v=    400 k=    100 r=0.5 relative_error=4.54e-14
+imag v=     10 k=   1000 r=0.5 relative_error=2.84e-17
+imag v=    200 k=   1000 r=0.5 relative_error=8.22e-15
+imag v=    500 k=   1000 r=0.9 relative_error=1.35e-12
+19 reference values passed; worst relative error 4.84e-10
+All 9 demo orders agree with independent high-precision roots within 1e-8

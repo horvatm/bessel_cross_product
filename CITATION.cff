@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper when using these methods or reproducing its results."
+type: software
+title: "Bessel cross products and radial modes"
+version: 0.1.0
+abstract: >-
+  A small, self-contained C++17 extract from the full code associated with
+  the paper below, focused on calculating Bessel cross products and radial
+  modes in waveguide bends.
+license: GPL-3.0-or-later
+authors:
+  - family-names: Horvat
+    given-names: Martin
+preferred-citation:
+  type: article
+  title: "The bends on a quantum waveguide and cross-products of Bessel functions"
+  authors:
+    - family-names: Horvat
+      given-names: Martin
+    - family-names: Prosen
+      given-names: Tomaž
+  journal: "Journal of Physics A: Mathematical and Theoretical"
+  volume: '40'
+  issue: '24'
+  start: 6349
+  end: 6379
+  year: 2007
+  doi: 10.1088/1751-8113/40/24/006

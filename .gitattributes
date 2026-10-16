@@ -1,0 +1,12 @@
+# Normalize text files while keeping published image assets binary.
+* text=auto
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+*.yml text eol=lf
+*.ipynb text eol=lf
+*.csv text eol=lf
+*.svg text eol=lf
+*.png binary
