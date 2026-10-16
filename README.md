@@ -6,9 +6,9 @@ in waveguide bends. Licensed under GPL-3.0-or-later.
 
 Computes
 
-\[
+$$
 Z_\nu(k,r)=J_\nu(kr)Y_\nu(k)-Y_\nu(kr)J_\nu(k),
-\]
+$$
 
 including real orders and purely imaginary orders, and the Dirichlet radial
 spectrum satisfying `Z_nu(k,q)=0`, `0<q<1`, at fixed `k>0`.

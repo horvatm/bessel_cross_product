@@ -8,9 +8,9 @@ For physical outer radius `b` and inner radius `a`, use `q=a/b`, dimensionless
 
 Separation of the Helmholtz equation gives
 
-\[
+$$
 r^2 R''+rR'+(k^2r^2-\lambda)R=0,\quad R(q)=R(1)=0.
-\]
+$$
 
 Positive `lambda=nu^2` gives a real Bessel order. Negative `lambda=-eta^2`
 gives imaginary order `nu=i eta`. There are finitely many positive eigenvalues
@@ -40,12 +40,12 @@ real-order calculation. At `r=1`, both functions return exactly zero.
 There is no imaginary-order amplitude scaling: the combination itself is real,
 even though the individual Bessel functions are complex. The Taylor form is
 
-\[
+$$
 Z_{i\eta}(k,r)=-\frac{2}{\pi\eta}\operatorname{Im}
 \left[r^{i\eta}V(\eta,kr/2)\overline{V(\eta,k/2)}\right],
 \quad
 V(\eta,x)=\sum_{m=0}^\infty\frac{(-x^2)^m}{m!(1+i\eta)_m}.
-\]
+$$
 
 `Mode` holds `order` (nonnegative magnitude), `eigenvalue` (signed square),
 and `imaginary` (whether the order is imaginary). The vector is sorted by
